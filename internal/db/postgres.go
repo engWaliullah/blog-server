@@ -17,7 +17,7 @@ func ConnectDB() {
 		"user=%s password=%s dbname=%s host=%s port=%s sslmode=disable",
 		config.GetEnv("DB_USER", "postgres"),
 		config.GetEnv("DB_PASSWORD", ""),
-		config.GetEnv("DB_NAME", "blogdb"),
+		config.GetEnv("DB_NAME", "postgres"),
 		config.GetEnv("DB_HOST", "localhost"),
 		config.GetEnv("DB_PORT", "5432"),
 	)

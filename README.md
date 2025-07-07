@@ -24,7 +24,7 @@ A simple and scalable blog server built with **Golang**, **PostgreSQL**, and **G
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/blog-server.git
+git clone https://github.com/engWaliullah/blog-server
 cd blog-server
 
 
